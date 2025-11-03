@@ -39,6 +39,9 @@
 
 <div class="pub-item">
   <strong>On the Convergence of Muon and Beyond</strong><br/>
+  <div class="authors">
+    <b>Da Chang</b>, Yongxiang Liu, Ganzhao Yuan
+  </div>
   <span class="meta">Preprint 2025.9 · <a href="https://arxiv.org/pdf/2509.15816" target="_blank" rel="noopener">PDF</a> · <a href="https://github.com/MaeChd/MUON-MVR" target="_blank" rel="noopener">代码</a></span>
   <div>提供了统一的衰减步长分析框架，完整地分析Muon-type优化器在随机非凸优化设置下的非遍历收敛性质与遍历收敛性质；讨论方差缩减带来的最优复杂度性质。</div>
   <div class="chips">
@@ -48,6 +51,9 @@
 
 <div class="pub-item">
   <strong>Calibrating and Rotating: A Unified Framework for Weight Conditioning in PEFT</strong><br/>
+  <div class="authors">
+    <b>Da Chang</b>, Peng Xue, Yu Li, Yongxiang Liu, Pengxiang Xu, Shixun Zhang
+  </div>
   <span class="meta">Preprint 2025.8 · <a href="https://github.com/MaeChd/SORA" target="_blank" rel="noopener">代码</a></span>
   <div>分析DoRA与LoRA的性质，并统一“校准 + 旋转”的权重条件化策略，提升 PEFT 的性能与训练推理效率。</div>
   <div class="chips">
@@ -57,6 +63,9 @@
 
 <div class="pub-item">
   <strong>MGUP: A Momentum-Gradient Alignment Update Policy for Stochastic Optimization</strong><br/>
+  <div class="authors">
+    <b>Da Chang</b>, Ganzhao Yuan
+  </div>
   <span class="meta"><span class="text-blue">NeurIPS 2025</span> <span class="text-red">Spotlight</span>· <a href="https://openreview.net/pdf?id=TDFSKAspoQ" target="_blank" rel="noopener">PDF</a> · <a href="https://github.com/MaeChd/MGUP" target="_blank" rel="noopener">代码</a></span>
   <div>通过动量-梯度的对齐策略提供随机非凸优化遍历收敛性保证并加速训练。</div>
   <div class="chips">
@@ -66,6 +75,12 @@
 
 <div class="pub-item">
   <strong>Mixed Text Recognition with Efficient Parameter Fine-Tuning and Transformer</strong><br/>
+  <div class="authors">
+    <b>Da Chang*</b>, Yu Li*
+  </div>
+  <div>
+  <span class="meta">(*:共同一作)</span>
+  </div>
   <span class="meta">本科毕业设计 / <span class="text-blue">ICONIP 2024</span> · <a href="https://arxiv.org/pdf/2404.12734" target="_blank" rel="noopener">PDF</a> · <a href="https://github.com/MaeChd/DLoRA-TrOCR" target="_blank" rel="noopener">代码</a></span>
   <div>基于 TrOCR 的 OCR 管线，结合高效 PEFT 以处理混合文本；提供可复现实验与评测。</div>
   <div class="chips">

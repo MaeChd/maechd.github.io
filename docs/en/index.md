@@ -41,6 +41,9 @@ I am very interested in the **theory and application of deep learning**. I would
 
 <div class="pub-item">
   <strong>On the Convergence of Muon and Beyond</strong><br/>
+  <div class="authors">
+    <b>Da Chang</b>, Yongxiang Liu, Ganzhao Yuan
+  </div>
   <span class="meta">Preprint 2025.9 · <a href="https://arxiv.org/pdf/2509.15816" target="_blank" rel="noopener">PDF</a> · <a href="https://github.com/MaeChd/MUON-MVR" target="_blank" rel="noopener">Code</a></span>
   <div>Analyzes Muon-type optimizers' convergence and extends the framework; The optimal complexity properties brought about by variance reduction are also discussed.</div>
   <div class="chips">
@@ -50,6 +53,9 @@ I am very interested in the **theory and application of deep learning**. I would
 
 <div class="pub-item">
   <strong>Calibrating and Rotating: A Unified Framework for Weight Conditioning in PEFT</strong><br/>
+  <div class="authors">
+    <b>Da Chang</b>, Peng Xue, Yu Li , Yongxiang Liu, Pengxiang Xu, Shixun Zhang
+  </div>
   <span class="meta">Preprint 2025.8 · <a href="https://github.com/MaeChd/SORA" target="_blank" rel="noopener">Code</a></span>
   <div>Analyze the properties of DoRA and LoRA, and unify the “calibration + rotation” weight conditioning strategy to enhance the performance and training-inference efficiency of PEFT.</div>
   <div class="chips">
@@ -59,6 +65,9 @@ I am very interested in the **theory and application of deep learning**. I would
 
 <div class="pub-item">
   <strong>MGUP: A Momentum-Gradient Alignment Update Policy for Stochastic Optimization</strong><br/>
+  <div class="authors">
+    <b>Da Chang</b>, Ganzhao Yuan
+  </div>
   <span class="meta"><span class="text-blue">NeurIPS 2025</span> <span class="text-red">Spotlight</span>· <a href="https://openreview.net/pdf?id=TDFSKAspoQ" target="_blank" rel="noopener">PDF</a> · <a href="https://github.com/MaeChd/MGUP" target="_blank" rel="noopener">Code</a></span>
   <div>Provide ergodic convergence guarantees for stochastic nonconvex optimization and accelerate training via a momentum-gradient alignment strategy.</div>
   <div class="chips">
@@ -68,6 +77,12 @@ I am very interested in the **theory and application of deep learning**. I would
 
 <div class="pub-item">
   <strong>Mixed Text Recognition with Efficient Parameter Fine-Tuning and Transformer</strong><br/>
+  <div class="authors">
+    <b>Da Chang*</b>, Yu Li*
+  </div>
+  <div>
+  <span class="meta">(*:Equal contribution)</span>
+  </div>
   <span class="meta"><b>Undergraduate Graduation Project</b> / <span class="text-blue">ICONIP 2024</span> · <a href="https://arxiv.org/pdf/2404.12734" target="_blank" rel="noopener">PDF</a> · <a href="https://github.com/MaeChd/DLoRA-TrOCR" target="_blank" rel="noopener">Code</a></span>
   <div>TrOCR-based OCR with efficient PEFT for mixed text; practical pipeline and evaluation.</div>
   <div class="chips">

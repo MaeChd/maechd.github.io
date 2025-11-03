@@ -76,6 +76,15 @@
   border: 1px solid var(--md-default-fg-color--lighter, #ddd);
   box-shadow: 0 4px 14px rgba(0,0,0,.12);
 }
-
+/* 论文卡片内的作者行 */
+.pub-item .authors{
+  margin-top: 2px;
+  font-size: .95em;
+  opacity: .85;                  /* 稍淡一点 */
+}
+.pub-item .authors a{            /* 作者链接样式（可选） */
+  text-decoration: none;
+  border-bottom: 1px dotted currentColor;
+}
 /* 如需限制最大宽度（可选，按需开启） */
 .md-typeset .vis-center img { max-width: 720px; }
