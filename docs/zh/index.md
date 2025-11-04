@@ -54,7 +54,7 @@
   <div class="authors">
     <b>Da Chang</b>, Peng Xue, Yu Li, Yongxiang Liu, Pengxiang Xu, Shixun Zhang
   </div>
-  <span class="meta">Preprint 2025.8 · <a href="https://github.com/MaeChd/SORA" target="_blank" rel="noopener">代码</a></span>
+  <span class="meta">Preprint 2025.8 · <a href="https://arxiv.org/pdf/2511.00051" target="_blank" rel="noopener">PDF</a> ·<a href="https://github.com/MaeChd/SORA" target="_blank" rel="noopener">代码</a></span>
   <div>分析DoRA与LoRA的性质，并统一“校准 + 旋转”的权重条件化策略，提升 PEFT 的性能与训练推理效率。</div>
   <div class="chips">
     <span class="chip">LLMs PEFT</span><span class="chip">权重条件化</span>
@@ -66,7 +66,7 @@
   <div class="authors">
     <b>Da Chang</b>, Ganzhao Yuan
   </div>
-  <span class="meta"><span class="text-blue">NeurIPS 2025</span> <span class="text-red">Spotlight</span>· <a href="https://openreview.net/pdf?id=TDFSKAspoQ" target="_blank" rel="noopener">PDF</a> · <a href="https://github.com/MaeChd/MGUP" target="_blank" rel="noopener">代码</a></span>
+  <span class="meta"><span class="text-blue"><i>NeurIPS 2025</i></span> <span class="text-red"><i>Spotlight(Top 3%)</i></span> · <span class="text-red"><i>CCF A</i></span> · <a href="https://openreview.net/pdf?id=TDFSKAspoQ" target="_blank" rel="noopener">PDF</a> · <a href="https://github.com/MaeChd/MGUP" target="_blank" rel="noopener">代码</a></span>
   <div>通过动量-梯度的对齐策略提供随机非凸优化遍历收敛性保证并加速训练。</div>
   <div class="chips">
     <span class="chip">随机优化</span><span class="chip">动量</span><span class="chip">对齐</span>
@@ -81,7 +81,7 @@
   <div>
   <span class="meta">(*:共同一作)</span>
   </div>
-  <span class="meta">本科毕业设计 / <span class="text-blue">ICONIP 2024</span> · <a href="https://arxiv.org/pdf/2404.12734" target="_blank" rel="noopener">PDF</a> · <a href="https://github.com/MaeChd/DLoRA-TrOCR" target="_blank" rel="noopener">代码</a></span>
+  <span class="meta">本科毕业设计 / <span class="text-blue"><i>ICONIP 2024</i></span> · <span class="text-green"><i>CCF C</i></span> · <a href="https://arxiv.org/pdf/2404.12734" target="_blank" rel="noopener">PDF</a> · <a href="https://github.com/MaeChd/DLoRA-TrOCR" target="_blank" rel="noopener">代码</a></span>
   <div>基于 TrOCR 的 OCR 管线，结合高效 PEFT 以处理混合文本；提供可复现实验与评测。</div>
   <div class="chips">
     <span class="chip">OCR</span><span class="chip">TrOCR</span><span class="chip">PEFT</span>

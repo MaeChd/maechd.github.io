@@ -55,6 +55,7 @@
 /* 保证到下一个二级标题时清除浮动，避免布局重叠 */
 .md-typeset h2 { clear: both; }
 .text-red   { color: #e53935; }
+.text-purple { color: #e611e6; }
 .text-green { color: #43a047; }
 .text-blue  { color: #1e88e5; }
 .bg-yellow  { background: #fff3cd; padding: 0 .25em; border-radius: .2em; }

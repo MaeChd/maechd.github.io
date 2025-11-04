@@ -56,7 +56,7 @@ I am very interested in the **theory and application of deep learning**. I would
   <div class="authors">
     <b>Da Chang</b>, Peng Xue, Yu Li , Yongxiang Liu, Pengxiang Xu, Shixun Zhang
   </div>
-  <span class="meta">Preprint 2025.8 · <a href="https://github.com/MaeChd/SORA" target="_blank" rel="noopener">Code</a></span>
+  <span class="meta">Preprint 2025.8 · <a href="https://arxiv.org/pdf/2511.00051" target="_blank" rel="noopener">PDF</a> · <a href="https://github.com/MaeChd/SORA" target="_blank" rel="noopener">Code</a></span>
   <div>Analyze the properties of DoRA and LoRA, and unify the “calibration + rotation” weight conditioning strategy to enhance the performance and training-inference efficiency of PEFT.</div>
   <div class="chips">
     <span class="chip">LLMs PEFT</span><span class="chip">Weight Conditioning</span>
@@ -68,7 +68,7 @@ I am very interested in the **theory and application of deep learning**. I would
   <div class="authors">
     <b>Da Chang</b>, Ganzhao Yuan
   </div>
-  <span class="meta"><span class="text-blue">NeurIPS 2025</span> <span class="text-red">Spotlight</span>· <a href="https://openreview.net/pdf?id=TDFSKAspoQ" target="_blank" rel="noopener">PDF</a> · <a href="https://github.com/MaeChd/MGUP" target="_blank" rel="noopener">Code</a></span>
+  <span class="meta"><span class="text-blue"><i>NeurIPS 2025</i></span> <span class="text-red"><i>Spotlight(Top 3%)</i></span> · <span class="text-red"><i>CCF A</i></span> · <a href="https://openreview.net/pdf?id=TDFSKAspoQ" target="_blank" rel="noopener">PDF</a> · <a href="https://github.com/MaeChd/MGUP" target="_blank" rel="noopener">Code</a></span>
   <div>Provide ergodic convergence guarantees for stochastic nonconvex optimization and accelerate training via a momentum-gradient alignment strategy.</div>
   <div class="chips">
     <span class="chip">Stochastic Optimization</span><span class="chip">Momentum</span><span class="chip">Alignment</span>
@@ -83,7 +83,7 @@ I am very interested in the **theory and application of deep learning**. I would
   <div>
   <span class="meta">(*:Equal contribution)</span>
   </div>
-  <span class="meta"><b>Undergraduate Graduation Project</b> / <span class="text-blue">ICONIP 2024</span> · <a href="https://arxiv.org/pdf/2404.12734" target="_blank" rel="noopener">PDF</a> · <a href="https://github.com/MaeChd/DLoRA-TrOCR" target="_blank" rel="noopener">Code</a></span>
+  <span class="meta"><b>Undergraduate Graduation Project</b> / <span class="text-blue"><i>ICONIP 2024</i></span> · <span class="text-green"><i>CCF C</i></span> · <a href="https://arxiv.org/pdf/2404.12734" target="_blank" rel="noopener">PDF</a> · <a href="https://github.com/MaeChd/DLoRA-TrOCR" target="_blank" rel="noopener">Code</a></span>
   <div>TrOCR-based OCR with efficient PEFT for mixed text; practical pipeline and evaluation.</div>
   <div class="chips">
     <span class="chip">OCR</span><span class="chip">TrOCR</span><span class="chip">PEFT</span>
