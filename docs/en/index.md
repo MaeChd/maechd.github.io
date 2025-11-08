@@ -1,11 +1,14 @@
 # Da Chang
 
-- Ph.D student (2024-*Present*)
+**Pengcheng Laboratory**, Shenzhen, China. *2025.7-Present*
 
-- Pengcheng Laboratory, Shenzhen, China
+**Shenzhen Institute of Advanced Technology**, Chinese Academy of Sciences, Shenzhen, China. *2024.9-Present*
 
-- Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences, Shenzhen, China
+Ph.D. in  Pattern Recognition and Intelligent Systems
 
+**Central South University**, School of Automation, China. *2020.9-2024.6*
+
+B.Eng. in Intelligent Science and Technology
 
 **DL Research — Optimization • PEFT • Pre & Post Training**
 
