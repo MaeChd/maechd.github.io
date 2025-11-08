@@ -25,12 +25,13 @@ I am very interested in the **theory and application of deep learning**. I would
 ---
 
 ## News
+- **2025-11** — *Calibrating and Rotating: A Unified Framework for Weight Conditioning in PEFT* accepted —— Accepted at **AAAI 2026**. 
 - **2025-11** — Preprint *Calibrating and Rotating: A Unified Framework for Weight Conditioning in PEFT* posted.  
 - **2025-09** — Preprint *On the Convergence of Muon and Beyond* posted.  
-- **2025-09** — *MGUP: A Momentum-Gradient Alignment Update Policy for Stochastic Optimization* accepted as **NeurIPS 2025 Spotlight**.  
+- **2025-09** — *MGUP: A Momentum-Gradient Alignment Update Policy for Stochastic Optimization* —— Accepted at **NeurIPS 2025 Spotlight**.  
 - **2025-07** — I started my second year of doctoral study in Pengcheng Laboratory.
 - **2024-09** — I started my first year of doctoral study in Chinese Academy of Sciences.
-- **2024-04** — Undergraduate graduation Project *Mixed Text Recognition with Efficient Parameter Fine-Tuning and Transformer* accepted as **ICONIP 2024**.
+- **2024-04** — Undergraduate graduation Project *Mixed Text Recognition with Efficient Parameter Fine-Tuning and Transformer* —— Accepted at **ICONIP 2024**.
 - **2024-06** — I graduated from the School of Automation of Central South University.
 - **2024-06** — I won the **outstanding undergraduate thesis** of Central South University.
 ---
@@ -56,7 +57,7 @@ I am very interested in the **theory and application of deep learning**. I would
   <div class="authors">
     <b>Da Chang</b>, Peng Xue, Yu Li , Yongxiang Liu, Pengxiang Xu, Shixun Zhang
   </div>
-  <span class="meta">Preprint 2025.8 · <a href="https://arxiv.org/pdf/2511.00051" target="_blank" rel="noopener">PDF</a> · <a href="https://github.com/MaeChd/SORA" target="_blank" rel="noopener">Code</a></span>
+  <span class="meta"><span class="text-blue"><i>AAAI 2026</i></span> · <span class="text-red"><i>CCF A</i></span> · <a href="https://arxiv.org/pdf/2511.00051" target="_blank" rel="noopener">PDF</a> · <a href="https://github.com/MaeChd/SORA" target="_blank" rel="noopener">Code</a></span>
   <div>Analyze the properties of DoRA and LoRA, and unify the “calibration + rotation” weight conditioning strategy to enhance the performance and training-inference efficiency of PEFT.</div>
   <div class="chips">
     <span class="chip">LLMs PEFT</span><span class="chip">Weight Conditioning</span>

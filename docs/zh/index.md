@@ -22,7 +22,7 @@
 ---
 
 ## 动态 / News
-
+- **2025-11** — *Calibrating and Rotating: A Unified Framework for Weight Conditioning in PEFT* 入选 **AAAI2026**。
 - **2025-11** — 预印本 *Calibrating and Rotating: A Unified Framework for Weight Conditioning in PEFT* 发布。  
 - **2025-09** — 预印本 *On the Convergence of Muon and Beyond* 发布。  
 - **2025-09** — 论文 *MGUP: A Momentum-Gradient Alignment Update Policy for Stochastic Optimization* 入选 **NeurIPS 2025 Spotlight**。
@@ -54,7 +54,7 @@
   <div class="authors">
     <b>Da Chang</b>, Peng Xue, Yu Li, Yongxiang Liu, Pengxiang Xu, Shixun Zhang
   </div>
-  <span class="meta">Preprint 2025.8 · <a href="https://arxiv.org/pdf/2511.00051" target="_blank" rel="noopener">PDF</a> ·<a href="https://github.com/MaeChd/SORA" target="_blank" rel="noopener">代码</a></span>
+  <span class="meta"><span class="text-blue"><i>AAAI 2026</i></span> · <span class="text-red"><i>CCF A</i></span> · <a href="https://arxiv.org/pdf/2511.00051" target="_blank" rel="noopener">PDF</a> ·<a href="https://github.com/MaeChd/SORA" target="_blank" rel="noopener">代码</a></span>
   <div>分析DoRA与LoRA的性质，并统一“校准 + 旋转”的权重条件化策略，提升 PEFT 的性能与训练推理效率。</div>
   <div class="chips">
     <span class="chip">LLMs PEFT</span><span class="chip">权重条件化</span>
