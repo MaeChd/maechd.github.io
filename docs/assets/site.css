@@ -58,6 +58,7 @@
 .text-purple { color: #e611e6; }
 .text-green { color: #43a047; }
 .text-blue  { color: #1e88e5; }
+.text-yellow  { color: #ffb300; }
 .bg-yellow  { background: #fff3cd; padding: 0 .25em; border-radius: .2em; }
 
 /* 地图容器 */
@@ -89,3 +90,33 @@
 }
 /* 如需限制最大宽度（可选，按需开启） */
 .md-typeset .vis-center img { max-width: 720px; }
+
+
+/* News：固定高度 + 超出滚动（只影响 News 标题后紧跟的那个 ul 列表） */
+.md-typeset h2#news + ul {
+  max-height: 280px;          /* 你想要的固定高度，改这里 */
+  overflow-y: auto;           /* 超出出现滚动条 */
+  overflow-x: hidden;
+
+  padding: 12px 16px 12px 28px; /* 左边留出 bullet 缩进 */
+  margin: 0 0 1rem 0;
+
+  border: 1px solid var(--md-default-fg-color--lighter, #ddd);
+  border-radius: 8px;
+  background: var(--md-default-bg-color);
+
+  scrollbar-gutter: stable;   /* 避免滚动条出现导致宽度抖动（支持的浏览器有效） */
+  -webkit-overflow-scrolling: touch; /* iOS 更顺滑 */
+}
+
+/* 可选：美化滚动条（Chrome/Edge/Safari 生效） */
+.md-typeset h2#news + ul::-webkit-scrollbar {
+  width: 8px;
+}
+.md-typeset h2#news + ul::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, .18);
+  border-radius: 999px;
+}
+.md-typeset h2#news + ul::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, .28);
+}

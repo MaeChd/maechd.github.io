@@ -27,11 +27,11 @@
 
 ---
 
-## 动态 / News
-- **2025-11** — *Calibrating and Rotating: A Unified Framework for Weight Conditioning in PEFT* 入选 **AAAI2026**。
-- **2025-11** — 预印本 *Calibrating and Rotating: A Unified Framework for Weight Conditioning in PEFT* 发布。  
+## 动态 / News {#news}
+- **2026-01** — *KG-SAM: Injecting Anatomical Knowledge into Segment Anything Models via Conditional Random Fields* 入选 **ICASSP 2026**。
+- **2025-11** — *Calibrating and Rotating: A Unified Framework for Weight Conditioning in PEFT* 入选 **AAAI 2026**。 
 - **2025-09** — 预印本 *On the Convergence of Muon and Beyond* 发布。  
-- **2025-09** — 论文 *MGUP: A Momentum-Gradient Alignment Update Policy for Stochastic Optimization* 入选 **NeurIPS 2025 Spotlight**。
+- **2025-09** — *MGUP: A Momentum-Gradient Alignment Update Policy for Stochastic Optimization* 入选 **NeurIPS 2025 Spotlight**。
 - **2025-07** — 我开始了博士第二年在鹏城实验室的学习。
 - **2024-09** — 我开启了博士第一年在中国科学院大学雁栖湖校区的学习。  
 - **2024-08** — 本科毕业设计*Mixed Text Recognition with Efficient Parameter Fine-Tuning and Transformer* 入选 **ICONIP 2024**。
@@ -42,6 +42,23 @@
 ## 代表论文
 
 <div class="pub-list">
+
+<div class="pub-item">
+  <strong>KG-SAM: Injecting Anatomical Knowledge into Segment Anything Models via Conditional Random Fields</strong><br/>
+  <div class="authors">
+    Yu Li*, <b>Da Chang*</b>, Xi Xiao
+  </div>
+  <div>
+  <span class="meta">(*:Equal contribution)</span>
+  </div>
+  <span class="meta"><span class="text-blue"><i>ICASSP 2026</i></span> · <span class="text-yellow"><i>CCF B</i></span> · <a href="https://arxiv.org/abs/2509.21750" target="_blank" rel="noopener">PDF</a>
+  <div>
+  提出了一个知识引导的医学图像分割框架，该框架集成了用于解剖先验的医学知识图谱、用于边界细化的基于能量的CRF和基于不确定性感知的融合模块，在多位点前列腺分割中取得了82.69%的Dice分割效果。
+  </div>
+  <div class="chips">
+    <span class="chip">SAM</span><span class="chip">医学分割</span><span class="chip">知识图谱</span><span class="chip">CRF</span>
+  </div>
+</div>
 
 <div class="pub-item">
   <strong>On the Convergence of Muon and Beyond</strong><br/>
@@ -95,6 +112,11 @@
 </div>
 
 </div>
+
+---
+## 学术服务
+- 2026 — 审稿人（Reviewer）：International Conference on Machine Learning（ICML）。
+- 2025 — 审稿人（Reviewer）：IEEE Transactions on Pattern Analysis and Machine Intelligence（TPAMI）。
 
 ---
 
