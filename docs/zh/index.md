@@ -176,8 +176,10 @@
 
 ## 技能
 
-- **编程语言：** Python、C/C++、MATLAB、LaTeX  
-- **工具框架：** PyTorch、MindSpeed、scikit-learn、AutoML 框架
+- **编程语言:** Python, C/C++, MATLAB, LaTeX
+- **机器学习框架:** PyTorch, scikit-learn, Megatron, MindSpeed
+- **分布式训练:** TP, PP, EP, CP; MoE training on NPU clusters
+- **AI助手编程:** Claude Code, Codex
 
 ---
 

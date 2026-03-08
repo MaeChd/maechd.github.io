@@ -153,8 +153,10 @@ I am very interested in the **theory and application of deep learning**. I would
 
 ## Skills
 
-- **Languages:** Python, C/C++, MATLAB, LaTeX  
-- **Tools:** PyTorch, MindSpeed, scikit-learn, AutoML frameworks
+- **Languages:** Python, C/C++, MATLAB, LaTeX
+- **Frameworks:** PyTorch, scikit-learn, Megatron, MindSpeed
+- **Distributed LLM Training:** TP, PP, EP, CP; MoE training; NPU-based large-scale training
+- **AI-assisted Development:** Claude Code, Codex
 
 ---
 
