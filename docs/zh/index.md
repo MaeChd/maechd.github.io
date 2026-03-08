@@ -39,6 +39,50 @@
 - **2024-06** — 我的本科毕业论文获得优秀论文评价。
 ---
 
+## 项目经验
+<div class="pub-list">
+
+<!-- <div class="pub-item">
+  <strong>64-card NPU MoE Training with Megatron, MindSpeed, and Distributed Muon</strong><br/>
+  <div class="authors">
+    <b>Da Chang</b>
+  </div>
+  <div>
+    <span class="meta">Project · Large Model Training Systems</span>
+  </div>
+  <span class="meta">
+    <span class="text-blue"><i>64 NPUs</i></span> ·
+    <span class="text-yellow"><i>Megatron / MindSpeed / MoE</i></span>
+  </span>
+  <div>
+    基于 Megatron 与 MindSpeed，在 64 卡 NPU 环境下开展 MoE 大模型训练实践，完成了 TP、CP、EP、PP 等并行策略的训练链路落地。主要工作包括：实现基于 Megatron/MindSpeed 的 Muon 与 Distributed Muon（ZeRO 风格）搭建；在性能优化方面，验证了 Muon 相比 AdamW 的稳定优势，并通过 Distributed Muon 以增加部分通信开销为代价显著降低显存占用；在故障定位方面，定位了 MoE expert 与 Muon 冗余组合导致的损失尖峰问题。最终实现了训练成功落地，并提升了训练吞吐、稳定性、资源利用率以及大模型规模支持能力。
+  </div>
+  <div class="chips">
+    <span class="chip">MoE</span><span class="chip">NPU</span><span class="chip">Megatron</span><span class="chip">MindSpeed</span><span class="chip">Muon</span><span class="chip">Distributed Training</span>
+  </div>
+</div> -->
+
+<div class="pub-item">
+  <strong>Distributed Muon-based MoE Training on 64 NPUs</strong><br/>
+  <div class="authors">
+    <b>Da Chang</b>
+  </div>
+  <div>
+    <span class="meta">Project · Systems for LLM Training</span>
+  </div>
+  <span class="meta">
+    <span class="text-blue"><i>Megatron & MindSpeed</i></span> ·
+    <span class="text-yellow"><i>MoE / Distributed Training</i></span>
+  </span>
+  <div>
+    在基于 Megatron 和 MindSpeed 的 64 卡 NPU MoE 大模型训练框架上，完成了 Muon 与 Distributed Muon（ZeRO 风格）的集成与训练落地，并支持 TP、CP、EP、PP 等并行策略。通过对优化器与训练系统的联合调优，Muon 在训练中稳定优于 AdamW，Distributed Muon 则以额外通信开销换取了更低显存占用；同时定位了 MoE expert 与 Muon 冗余引发的损失尖峰故障。项目最终提升了训练吞吐、稳定性与资源利用率，并支持更大规模模型训练。
+  </div>
+  <div class="chips">
+    <span class="chip">MoE</span><span class="chip">Muon</span><span class="chip">ZeRO</span><span class="chip">Megatron</span><span class="chip">MindSpeed</span><span class="chip">64 NPUs</span>
+  </div>
+</div>
+
+</div>
 ## 代表论文
 
 <div class="pub-list">

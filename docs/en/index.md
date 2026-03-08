@@ -39,6 +39,29 @@ I am very interested in the **theory and application of deep learning**. I would
 - **2024-06** — I won the **outstanding undergraduate thesis** of Central South University.
 ---
 
+## Projects
+<div class="pub-list">
+<div class="pub-item">
+  <strong>Distributed Muon-based MoE Training on 64 NPUs</strong><br/>
+  <div class="authors">
+    <b>Da Chang</b>
+  </div>
+  <div>
+    <span class="meta">Project · Systems for LLM Training</span>
+  </div>
+  <span class="meta">
+    <span class="text-blue"><i>Megatron & MindSpeed</i></span> ·
+    <span class="text-yellow"><i>MoE / Distributed Training</i></span>
+  </span>
+  <div>
+    Built Muon and Distributed Muon (ZeRO-style) on top of a Megatron- and MindSpeed-based 64-NPU MoE training framework, with support for TP, CP, EP, and PP parallelism. Muon consistently outperformed AdamW during training, while Distributed Muon reduced memory usage at the cost of additional communication overhead. I also identified a loss-spike issue caused by the interaction between MoE experts and Muon redundancy. The project improved training throughput, stability, and resource utilization, and enabled training at larger model scales.
+  </div>
+  <div class="chips">
+    <span class="chip">MoE</span><span class="chip">Muon</span><span class="chip">ZeRO</span><span class="chip">Megatron</span><span class="chip">MindSpeed</span><span class="chip">64 NPUs</span>
+  </div>
+</div>
+</div>
+
 ## Selected Publications
 
 <div class="pub-list">
