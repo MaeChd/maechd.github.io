@@ -28,7 +28,7 @@
 ---
 
 ## 动态 / News {#news}
-- **2026-01** — *KG-SAM: Injecting Anatomical Knowledge into Segment Anything Models via Conditional Random Fields* 入选 **ICASSP 2026**。
+- **2026-01** — *KG-SAM: Injecting Anatomical Knowledge into Segment Anything Models via Conditional Random Fields* 入选 **ICASSP 2026 Oral**。
 - **2025-11** — *Calibrating and Rotating: A Unified Framework for Weight Conditioning in PEFT* 入选 **AAAI 2026**。 
 - **2025-09** — 预印本 *On the Convergence of Muon and Beyond* 发布。  
 - **2025-09** — *MGUP: A Momentum-Gradient Alignment Update Policy for Stochastic Optimization* 入选 **NeurIPS 2025 Spotlight**。
@@ -95,7 +95,7 @@
   <div>
   <span class="meta">(*:Equal contribution)</span>
   </div>
-  <span class="meta"><span class="text-blue"><i>ICASSP 2026</i></span> · <span class="text-yellow"><i>CCF B</i></span> · <a href="https://arxiv.org/abs/2509.21750" target="_blank" rel="noopener">PDF</a>
+  <span class="meta"><span class="text-blue"><i>ICASSP 2026 Oral</i></span> · <span class="text-yellow"><i>CCF B</i></span> · <a href="https://arxiv.org/abs/2509.21750" target="_blank" rel="noopener">PDF</a>
   <div>
   提出了一个知识引导的医学图像分割框架，该框架集成了用于解剖先验的医学知识图谱、用于边界细化的基于能量的CRF和基于不确定性感知的融合模块，在多位点前列腺分割中取得了82.69%的Dice分割效果。
   </div>

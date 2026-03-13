@@ -28,7 +28,7 @@ I am very interested in the **theory and application of deep learning**. I would
 ---
 
 ## News {#news}
-- **2026-01** — *KG-SAM: Injecting Anatomical Knowledge into Segment Anything Models via Conditional Random Fields* accepted —— Accepted at **ICASSP 2026**. 
+- **2026-01** — *KG-SAM: Injecting Anatomical Knowledge into Segment Anything Models via Conditional Random Fields* accepted —— Accepted at **ICASSP 2026 Oral**. 
 - **2025-11** — *Calibrating and Rotating: A Unified Framework for Weight Conditioning in PEFT* accepted —— Accepted at **AAAI 2026**. 
 - **2025-09** — Preprint *On the Convergence of Muon and Beyond* posted.  
 - **2025-09** — *MGUP: A Momentum-Gradient Alignment Update Policy for Stochastic Optimization* —— Accepted at **NeurIPS 2025 Spotlight**.  
@@ -74,7 +74,7 @@ I am very interested in the **theory and application of deep learning**. I would
   <div>
   <span class="meta">(*:Equal contribution)</span>
   </div>
-  <span class="meta"><span class="text-blue"><i>ICASSP 2026</i></span> · <span class="text-yellow"><i>CCF B</i></span> · <a href="https://arxiv.org/abs/2509.21750" target="_blank" rel="noopener">PDF</a>
+  <span class="meta"><span class="text-blue"><i>ICASSP 2026 Oral</i></span> · <span class="text-yellow"><i>CCF B</i></span> · <a href="https://arxiv.org/abs/2509.21750" target="_blank" rel="noopener">PDF</a>
   <div>A knowledge-guided framework for medical image segmentation that integrates a medical knowledge graph for anatomical priors, an energy-based CRF for boundary refinement, and an uncertainty-aware fusion module, achieving 82.69% Dice on multi-site prostate segmentation.</div>
   <div class="chips">
      <span class="chip">SAM</span><span class="chip">Medical Segmentation</span><span class="chip">Knowledge Graph</span><span class="chip">CRF</span>
