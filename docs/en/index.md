@@ -28,6 +28,7 @@ I am very interested in the **theory and application of deep learning**. I would
 ---
 
 ## News {#news}
+- **2026-03** — Preprint *MuonEq: Balancing Before Orthogonalization with Lightweight Equilibration* posted.  
 - **2026-01** — *KG-SAM: Injecting Anatomical Knowledge into Segment Anything Models via Conditional Random Fields* accepted —— Accepted at **ICASSP 2026 Oral**. 
 - **2025-11** — *Calibrating and Rotating: A Unified Framework for Weight Conditioning in PEFT* accepted —— Accepted at **AAAI 2026**. 
 - **2025-09** — Preprint *On the Convergence of Muon and Beyond* posted.  
@@ -42,9 +43,9 @@ I am very interested in the **theory and application of deep learning**. I would
 ## Projects
 <div class="pub-list">
 <div class="pub-item">
-  <strong>Distributed Muon-based MoE Training on 64 NPUs</strong><br/>
+  <strong>Distributed Muon-based MoE Training on 64 NPUs</strong>
   <div class="authors">
-    <b>Da Chang</b>
+    <span class="author-me">Da Chang</span>
   </div>
   <div>
     <span class="meta">Project · Systems for LLM Training</span>
@@ -67,77 +68,138 @@ I am very interested in the **theory and application of deep learning**. I would
 <div class="pub-list">
 
 <div class="pub-item">
-  <strong>KG-SAM: Injecting Anatomical Knowledge into Segment Anything Models via Conditional Random Fields</strong><br/>
+  <strong>MuonEq: Balancing Before Orthogonalization with Lightweight Equilibration</strong>
   <div class="authors">
-    Yu Li*, <b>Da Chang*</b>, Xi Xiao
+    <span class="author-me">Da Chang</span>, Qiankun Shi, Lvgang Zhang, Yu Li, Ruijie Zhang, Yao Lu, Yongxiang Liu, Ganzhao Yuan
   </div>
-  <div>
-  <span class="meta">(*:Equal contribution)</span>
+  <span class="meta">
+    Preprint 2026.3 ·
+    <a href="https://arxiv.org/pdf/2603.28254" target="_blank" rel="noopener">PDF</a> ·
+    <span class="link-disabled">Code</span>
+  </span>
+  <div class="summary">
+    MuonEq is a lightweight pre-orthogonalization equilibration method for Muon that rebalances the momentum matrix with row/column norm statistics before Newton–Schulz.
   </div>
-  <span class="meta"><span class="text-blue"><i>ICASSP 2026 Oral</i></span> · <span class="text-yellow"><i>CCF B</i></span> · <a href="https://arxiv.org/abs/2509.21750" target="_blank" rel="noopener">PDF</a>
-  <div>A knowledge-guided framework for medical image segmentation that integrates a medical knowledge graph for anatomical priors, an energy-based CRF for boundary refinement, and an uncertainty-aware fusion module, achieving 82.69% Dice on multi-site prostate segmentation.</div>
   <div class="chips">
-     <span class="chip">SAM</span><span class="chip">Medical Segmentation</span><span class="chip">Knowledge Graph</span><span class="chip">CRF</span>
+    <span class="chip">Muon</span>
+    <span class="chip">Row/Col Equilibration</span>
+    <span class="chip">Stochastic Optimization</span>
   </div>
 </div>
 
 <div class="pub-item">
-  <strong>On the Convergence of Muon and Beyond</strong><br/>
+  <strong>KG-SAM: Injecting Anatomical Knowledge into Segment Anything Models via Conditional Random Fields</strong>
   <div class="authors">
-    <b>Da Chang</b>, Yongxiang Liu, Ganzhao Yuan
+    Yu Li*, <span class="author-me">Da Chang*</span>, Xi Xiao
   </div>
-  <span class="meta">Preprint 2025.9 · <a href="https://arxiv.org/pdf/2509.15816" target="_blank" rel="noopener">PDF</a> · <a href="https://github.com/MaeChd/MUON-MVR" target="_blank" rel="noopener">Code</a></span>
-  <div>Analyzes Muon-type optimizers' convergence and extends the framework; The optimal complexity properties brought about by variance reduction are also discussed.</div>
+  <span class="meta">(*: Equal contribution)</span>
+  <span class="meta">
+    <span class="text-blue"><i>ICASSP 2026 Oral</i></span> ·
+    <span class="text-yellow"><i>CCF B</i></span> ·
+    <a href="https://arxiv.org/abs/2509.21750" target="_blank" rel="noopener">PDF</a>
+  </span>
+  <div class="summary">
+    A knowledge-guided framework for medical image segmentation that integrates a medical knowledge graph for anatomical priors, an energy-based CRF for boundary refinement, and an uncertainty-aware fusion module, achieving 82.69% Dice on multi-site prostate segmentation.
+  </div>
   <div class="chips">
-    <span class="chip">Muon</span><span class="chip">Convergence</span><span class="chip">Stochastic Optimization</span>
+    <span class="chip">SAM</span>
+    <span class="chip">Medical Segmentation</span>
+    <span class="chip">Knowledge Graph</span>
+    <span class="chip">CRF</span>
   </div>
 </div>
 
 <div class="pub-item">
-  <strong>Calibrating and Rotating: A Unified Framework for Weight Conditioning in PEFT</strong><br/>
+  <strong>On the Convergence of Muon and Beyond</strong>
   <div class="authors">
-    <b>Da Chang</b>, Peng Xue, Yu Li , Yongxiang Liu, Pengxiang Xu, Shixun Zhang
+    <span class="author-me">Da Chang</span>, Yongxiang Liu, Ganzhao Yuan
   </div>
-  <span class="meta"><span class="text-blue"><i>AAAI 2026</i></span> · <span class="text-red"><i>CCF A</i></span> · <a href="https://arxiv.org/pdf/2511.00051" target="_blank" rel="noopener">PDF</a> · <a href="https://github.com/MaeChd/SORA" target="_blank" rel="noopener">Code</a></span>
-  <div>Analyze the properties of DoRA and LoRA, and unify the “calibration + rotation” weight conditioning strategy to enhance the performance and training-inference efficiency of PEFT.</div>
+  <span class="meta">
+    Preprint 2025.9 ·
+    <a href="https://arxiv.org/pdf/2509.15816" target="_blank" rel="noopener">PDF</a> ·
+    <a href="https://github.com/MaeChd/MUON-MVR" target="_blank" rel="noopener">Code</a>
+  </span>
+  <div class="summary">
+    Analyzes Muon-type optimizers' convergence and extends the framework; the optimal complexity properties brought about by variance reduction are also discussed.
+  </div>
   <div class="chips">
-    <span class="chip">LLMs PEFT</span><span class="chip">Weight Conditioning</span>
+    <span class="chip">Muon</span>
+    <span class="chip">Convergence</span>
+    <span class="chip">Stochastic Optimization</span>
   </div>
 </div>
 
 <div class="pub-item">
-  <strong>MGUP: A Momentum-Gradient Alignment Update Policy for Stochastic Optimization</strong><br/>
+  <strong>Calibrating and Rotating: A Unified Framework for Weight Conditioning in PEFT</strong>
   <div class="authors">
-    <b>Da Chang</b>, Ganzhao Yuan
+    <span class="author-me">Da Chang</span>, Peng Xue, Yu Li, Yongxiang Liu, Pengxiang Xu, Shixun Zhang
   </div>
-  <span class="meta"><span class="text-blue"><i>NeurIPS 2025</i></span> <span class="text-red"><i>Spotlight(Top 3%)</i></span> · <span class="text-red"><i>CCF A</i></span> · <a href="https://openreview.net/pdf?id=TDFSKAspoQ" target="_blank" rel="noopener">PDF</a> · <a href="https://github.com/MaeChd/MGUP" target="_blank" rel="noopener">Code</a></span>
-  <div>Provide ergodic convergence guarantees for stochastic nonconvex optimization and accelerate training via a momentum-gradient alignment strategy.</div>
+  <span class="meta">
+    <span class="text-blue"><i>AAAI 2026</i></span> ·
+    <span class="text-red"><i>CCF A</i></span> ·
+    <a href="https://arxiv.org/pdf/2511.00051" target="_blank" rel="noopener">PDF</a> ·
+    <a href="https://github.com/MaeChd/SORA" target="_blank" rel="noopener">Code</a>
+  </span>
+  <div class="summary">
+    Analyze the properties of DoRA and LoRA, and unify the “calibration + rotation” weight conditioning strategy to enhance the performance and training-inference efficiency of PEFT.
+  </div>
   <div class="chips">
-    <span class="chip">Stochastic Optimization</span><span class="chip">Momentum</span><span class="chip">Alignment</span>
+    <span class="chip">LLMs PEFT</span>
+    <span class="chip">Weight Conditioning</span>
   </div>
 </div>
 
 <div class="pub-item">
-  <strong>Mixed Text Recognition with Efficient Parameter Fine-Tuning and Transformer</strong><br/>
+  <strong>MGUP: A Momentum-Gradient Alignment Update Policy for Stochastic Optimization</strong>
   <div class="authors">
-    <b>Da Chang*</b>, Yu Li*
+    <span class="author-me">Da Chang</span>, Ganzhao Yuan
   </div>
-  <div>
-  <span class="meta">(*:Equal contribution)</span>
+  <span class="meta">
+    <span class="text-blue"><i>NeurIPS 2025</i></span> ·
+    <span class="text-red"><i>Spotlight (Top 3%)</i></span> ·
+    <span class="text-red"><i>CCF A</i></span> ·
+    <a href="https://openreview.net/pdf?id=TDFSKAspoQ" target="_blank" rel="noopener">PDF</a> ·
+    <a href="https://github.com/MaeChd/MGUP" target="_blank" rel="noopener">Code</a>
+  </span>
+  <div class="summary">
+    Provide ergodic convergence guarantees for stochastic nonconvex optimization and accelerate training via a momentum-gradient alignment strategy.
   </div>
-  <span class="meta"><b>Undergraduate Graduation Project</b> / <span class="text-blue"><i>ICONIP 2024</i></span> · <span class="text-green"><i>CCF C</i></span> · <a href="https://arxiv.org/pdf/2404.12734" target="_blank" rel="noopener">PDF</a> · <a href="https://github.com/MaeChd/DLoRA-TrOCR" target="_blank" rel="noopener">Code</a></span>
-  <div>TrOCR-based OCR with efficient PEFT for mixed text; practical pipeline and evaluation.</div>
   <div class="chips">
-    <span class="chip">OCR</span><span class="chip">TrOCR</span><span class="chip">PEFT</span>
+    <span class="chip">Stochastic Optimization</span>
+    <span class="chip">Momentum</span>
+    <span class="chip">Alignment</span>
   </div>
 </div>
 
+<div class="pub-item">
+  <strong>Mixed Text Recognition with Efficient Parameter Fine-Tuning and Transformer</strong>
+  <div class="authors">
+    <span class="author-me">Da Chang*</span>, Yu Li*
+  </div>
+  <span class="meta">(*: Equal contribution)</span>
+  <span class="meta">
+    <strong>Undergraduate Graduation Project</strong> /
+    <span class="text-blue"><i>ICONIP 2024</i></span> ·
+    <span class="text-green"><i>CCF C</i></span> ·
+    <a href="https://arxiv.org/pdf/2404.12734" target="_blank" rel="noopener">PDF</a> ·
+    <a href="https://github.com/MaeChd/DLoRA-TrOCR" target="_blank" rel="noopener">Code</a>
+  </span>
+  <div class="summary">
+    TrOCR-based OCR with efficient PEFT for mixed text; practical pipeline and evaluation.
+  </div>
+  <div class="chips">
+    <span class="chip">OCR</span>
+    <span class="chip">TrOCR</span>
+    <span class="chip">PEFT</span>
+  </div>
+</div>
 </div>
 
 ---
 ## Academic Service
-- 2026 — Reviewer for International Conference on Machine Learning (ICML).
-- 2025 — Reviewer for IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI).
+
+ Reviewer for *TPAMI'25*, *ICML'26*, *NeurIPS'26*.
+
 
 ---
 

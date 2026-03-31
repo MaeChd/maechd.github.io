@@ -18,28 +18,11 @@
   border: 2px solid var(--md-default-fg-color--lightest, #e0e0e0);
 }
 
-/* 论文列表样式（一句话 + 关键词） */
-.pub-list { display: grid; gap: 12px; }
-.pub-item {
-  border: 1px solid var(--md-default-fg-color--lighter, #ddd);
-  border-radius: 8px;
-  padding: 12px;
-}
-.pub-item .meta { opacity: .75; font-size: .9em; margin-top: 2px; }
-.chips { margin-top: 6px; }
-.chip {
-  display: inline-block;
-  border: 1px solid var(--md-default-fg-color--lighter, #ddd);
-  border-radius: 9999px;
-  padding: 2px 8px;
-  margin-right: 6px;
-  font-size: .8em;
-}
 
 /* 放宽页面最大宽度（默认大概 1240px 左右），你可以按需调大/调小 */
-.md-grid { max-width: 1280px; }
-@media (min-width: 1440px) {
-  .md-grid { max-width: 1400px; }
+.md-grid { max-width: 1280px; } 
+@media (min-width: 1440px) 
+  { .md-grid { max-width: 1400px; } 
 }
 
 /* 纯 Markdown 头像方案：左浮动 + 圆角 + 间距 */
@@ -71,26 +54,14 @@
 }
 
 .md-typeset .vis-center img {
-  display: inline-block;       /* 保持图片在中线 */
-  max-width: 100%;             /* 移动端自适应 */
+  display: inline-block;
+  width: 100%;
+  max-width: 720px;
   height: auto;
-  border-radius: 12px;         /* 圆角 */
+  border-radius: 12px;
   border: 1px solid var(--md-default-fg-color--lighter, #ddd);
   box-shadow: 0 4px 14px rgba(0,0,0,.12);
 }
-/* 论文卡片内的作者行 */
-.pub-item .authors{
-  margin-top: 2px;
-  font-size: .95em;
-  opacity: .85;                  /* 稍淡一点 */
-}
-.pub-item .authors a{            /* 作者链接样式（可选） */
-  text-decoration: none;
-  border-bottom: 1px dotted currentColor;
-}
-/* 如需限制最大宽度（可选，按需开启） */
-.md-typeset .vis-center img { max-width: 720px; }
-
 
 /* News：固定高度 + 超出滚动（只影响 News 标题后紧跟的那个 ul 列表） */
 .md-typeset h2#news + ul {
@@ -120,3 +91,103 @@
 .md-typeset h2#news + ul::-webkit-scrollbar-thumb:hover {
   background: rgba(0, 0, 0, .28);
 }
+
+
+/* ===== Publications ===== */
+:root {
+  --ui-border: var(--md-default-fg-color--lighter, #ddd);
+  --ui-border-soft: var(--md-default-fg-color--lightest, #e0e0e0);
+  --card-radius: 10px;
+}
+
+.pub-list {
+  display: grid;
+  gap: 14px;
+}
+
+.pub-item {
+  padding: 14px 16px;
+  border: 1px solid var(--ui-border);
+  border-radius: var(--card-radius);
+  background: var(--md-default-bg-color);
+  font-size: 0.75rem;   /* 整体缩一点 */
+}
+
+.pub-item > strong {
+  display: block;
+  line-height: 1.35;
+  font-size: 0.85rem;   /* 标题稍微小一点 */
+}
+
+.pub-item .authors {
+  font-size: 0.8rem;
+  line-height: 1.55;
+  opacity: .88;
+  font-weight: 400;
+}
+
+.pub-item .meta {
+  display: block;
+  font-size: 0.70rem;
+  line-height: 1.45;
+  opacity: .75;
+  font-weight: 400;
+}
+
+.pub-item .summary {
+  font-size: 0.75rem;
+  line-height: 1.6;
+  font-weight: 400;
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 10px;
+  border: 1px solid var(--ui-border);
+  border-radius: 9999px;
+  font-size: 0.76rem;
+  line-height: 1.3;
+  white-space: nowrap;
+}
+
+.pub-item .meta {
+  display: block;
+  font-size: 0.70rem;
+  line-height: 1.5;
+  opacity: .75;
+  font-weight: 400;
+}
+
+.pub-item .summary {
+  line-height: 1.65;
+  font-weight: 400;   /* 关键：显式防止描述被继承成粗体 */
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: .65rem;
+}
+
+
+
+.pub-item .authors a,
+.pub-item .meta a {
+  text-decoration: none;
+  border-bottom: 1px dotted currentColor;
+}
+
+.pub-item .authors a:hover,
+.pub-item .meta a:hover {
+  border-bottom-style: solid;
+}
+.pub-item .author-me {
+  font-weight: 700;
+}
+.link-disabled {
+  opacity: .55;
+  cursor: default;
+}
+

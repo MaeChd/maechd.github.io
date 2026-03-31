@@ -28,6 +28,7 @@
 ---
 
 ## 动态 / News {#news}
+- **2026-03*** — 预印本 *MuonEq: Balancing Before Orthogonalization with Lightweight Equilibration* 发布。
 - **2026-01** — *KG-SAM: Injecting Anatomical Knowledge into Segment Anything Models via Conditional Random Fields* 入选 **ICASSP 2026 Oral**。
 - **2025-11** — *Calibrating and Rotating: A Unified Framework for Weight Conditioning in PEFT* 入选 **AAAI 2026**。 
 - **2025-09** — 预印本 *On the Convergence of Muon and Beyond* 发布。  
@@ -42,30 +43,10 @@
 ## 项目经验
 <div class="pub-list">
 
-<!-- <div class="pub-item">
-  <strong>64-card NPU MoE Training with Megatron, MindSpeed, and Distributed Muon</strong><br/>
-  <div class="authors">
-    <b>Da Chang</b>
-  </div>
-  <div>
-    <span class="meta">Project · Large Model Training Systems</span>
-  </div>
-  <span class="meta">
-    <span class="text-blue"><i>64 NPUs</i></span> ·
-    <span class="text-yellow"><i>Megatron / MindSpeed / MoE</i></span>
-  </span>
-  <div>
-    基于 Megatron 与 MindSpeed，在 64 卡 NPU 环境下开展 MoE 大模型训练实践，完成了 TP、CP、EP、PP 等并行策略的训练链路落地。主要工作包括：实现基于 Megatron/MindSpeed 的 Muon 与 Distributed Muon（ZeRO 风格）搭建；在性能优化方面，验证了 Muon 相比 AdamW 的稳定优势，并通过 Distributed Muon 以增加部分通信开销为代价显著降低显存占用；在故障定位方面，定位了 MoE expert 与 Muon 冗余组合导致的损失尖峰问题。最终实现了训练成功落地，并提升了训练吞吐、稳定性、资源利用率以及大模型规模支持能力。
-  </div>
-  <div class="chips">
-    <span class="chip">MoE</span><span class="chip">NPU</span><span class="chip">Megatron</span><span class="chip">MindSpeed</span><span class="chip">Muon</span><span class="chip">Distributed Training</span>
-  </div>
-</div> -->
-
 <div class="pub-item">
-  <strong>Distributed Muon-based MoE Training on 64 NPUs</strong><br/>
+  <strong>Distributed Muon-based MoE Training on 64 NPUs</strong>
   <div class="authors">
-    <b>Da Chang</b>
+    <span class="author-me">Da Chang</span>
   </div>
   <div>
     <span class="meta">Project · Systems for LLM Training</span>
@@ -88,70 +69,129 @@
 <div class="pub-list">
 
 <div class="pub-item">
-  <strong>KG-SAM: Injecting Anatomical Knowledge into Segment Anything Models via Conditional Random Fields</strong><br/>
+  <strong>MuonEq: Balancing Before Orthogonalization with Lightweight Equilibration</strong>
   <div class="authors">
-    Yu Li*, <b>Da Chang*</b>, Xi Xiao
+    <span class="author-me">Da Chang</span>, Qiankun Shi, Lvgang Zhang, Yu Li, Ruijie Zhang, Yao Lu, Yongxiang Liu, Ganzhao Yuan
   </div>
-  <div>
-  <span class="meta">(*:Equal contribution)</span>
-  </div>
-  <span class="meta"><span class="text-blue"><i>ICASSP 2026 Oral</i></span> · <span class="text-yellow"><i>CCF B</i></span> · <a href="https://arxiv.org/abs/2509.21750" target="_blank" rel="noopener">PDF</a>
-  <div>
-  提出了一个知识引导的医学图像分割框架，该框架集成了用于解剖先验的医学知识图谱、用于边界细化的基于能量的CRF和基于不确定性感知的融合模块，在多位点前列腺分割中取得了82.69%的Dice分割效果。
+  <span class="meta">
+    Preprint 2026.3 ·
+    <a href="https://arxiv.org/pdf/2603.28254" target="_blank" rel="noopener">PDF</a> ·
+    <span class="link-disabled">Code</span>
+  </span>
+  <div class="summary">
+    MuonEq 在 Muon 的正交化更新之前加入轻量级的行/列平衡改善有限步 Newton–Schulz 的输入矩阵几何。
   </div>
   <div class="chips">
-    <span class="chip">SAM</span><span class="chip">医学分割</span><span class="chip">知识图谱</span><span class="chip">CRF</span>
+    <span class="chip">Muon</span>
+    <span class="chip">Row/Col Equilibration</span>
+    <span class="chip">Stochastic Optimization</span>
   </div>
 </div>
 
 <div class="pub-item">
-  <strong>On the Convergence of Muon and Beyond</strong><br/>
+  <strong>KG-SAM: Injecting Anatomical Knowledge into Segment Anything Models via Conditional Random Fields</strong>
   <div class="authors">
-    <b>Da Chang</b>, Yongxiang Liu, Ganzhao Yuan
+    Yu Li*, <span class="author-me">Da Chang*</span>, Xi Xiao
   </div>
-  <span class="meta">Preprint 2025.9 · <a href="https://arxiv.org/pdf/2509.15816" target="_blank" rel="noopener">PDF</a> · <a href="https://github.com/MaeChd/MUON-MVR" target="_blank" rel="noopener">代码</a></span>
-  <div>提供了统一的衰减步长分析框架，完整地分析Muon-type优化器在随机非凸优化设置下的非遍历收敛性质与遍历收敛性质；讨论方差缩减带来的最优复杂度性质。</div>
+  <span class="meta">(*: Equal contribution)</span>
+  <span class="meta">
+    <span class="text-blue"><i>ICASSP 2026 Oral</i></span> ·
+    <span class="text-yellow"><i>CCF B</i></span> ·
+    <a href="https://arxiv.org/abs/2509.21750" target="_blank" rel="noopener">PDF</a>
+  </span>
+  <div class="summary">
+    提出了一个知识引导的医学图像分割框架，该框架集成了用于解剖先验的医学知识图谱、用于边界细化的基于能量的CRF和基于不确定性感知的融合模块，在多位点前列腺分割中取得了82.69%的Dice分割效果。
+  </div>
   <div class="chips">
-    <span class="chip">Muon</span><span class="chip">收敛性</span><span class="chip">随机优化</span>
+    <span class="chip">SAM</span>
+    <span class="chip">Medical Segmentation</span>
+    <span class="chip">Knowledge Graph</span>
+    <span class="chip">CRF</span>
   </div>
 </div>
 
 <div class="pub-item">
-  <strong>Calibrating and Rotating: A Unified Framework for Weight Conditioning in PEFT</strong><br/>
+  <strong>On the Convergence of Muon and Beyond</strong>
   <div class="authors">
-    <b>Da Chang</b>, Peng Xue, Yu Li, Yongxiang Liu, Pengxiang Xu, Shixun Zhang
+    <span class="author-me">Da Chang</span>, Yongxiang Liu, Ganzhao Yuan
   </div>
-  <span class="meta"><span class="text-blue"><i>AAAI 2026</i></span> · <span class="text-red"><i>CCF A</i></span> · <a href="https://arxiv.org/pdf/2511.00051" target="_blank" rel="noopener">PDF</a> ·<a href="https://github.com/MaeChd/SORA" target="_blank" rel="noopener">代码</a></span>
-  <div>分析DoRA与LoRA的性质，并统一“校准 + 旋转”的权重条件化策略，提升 PEFT 的性能与训练推理效率。</div>
+  <span class="meta">
+    Preprint 2025.9 ·
+    <a href="https://arxiv.org/pdf/2509.15816" target="_blank" rel="noopener">PDF</a> ·
+    <a href="https://github.com/MaeChd/MUON-MVR" target="_blank" rel="noopener">Code</a>
+  </span>
+  <div class="summary">
+    提供了统一的衰减步长分析框架，完整地分析Muon-type优化器在随机非凸优化设置下的非遍历收敛性质与遍历收敛性质；讨论方差缩减带来的最优复杂度性质。
+  </div>
   <div class="chips">
-    <span class="chip">LLMs PEFT</span><span class="chip">权重条件化</span>
+    <span class="chip">Muon</span>
+    <span class="chip">Convergence</span>
+    <span class="chip">Stochastic Optimization</span>
   </div>
 </div>
 
 <div class="pub-item">
-  <strong>MGUP: A Momentum-Gradient Alignment Update Policy for Stochastic Optimization</strong><br/>
+  <strong>Calibrating and Rotating: A Unified Framework for Weight Conditioning in PEFT</strong>
   <div class="authors">
-    <b>Da Chang</b>, Ganzhao Yuan
+    <span class="author-me">Da Chang</span>, Peng Xue, Yu Li, Yongxiang Liu, Pengxiang Xu, Shixun Zhang
   </div>
-  <span class="meta"><span class="text-blue"><i>NeurIPS 2025</i></span> <span class="text-red"><i>Spotlight(Top 3%)</i></span> · <span class="text-red"><i>CCF A</i></span> · <a href="https://openreview.net/pdf?id=TDFSKAspoQ" target="_blank" rel="noopener">PDF</a> · <a href="https://github.com/MaeChd/MGUP" target="_blank" rel="noopener">代码</a></span>
-  <div>通过动量-梯度的对齐策略提供随机非凸优化遍历收敛性保证并加速训练。</div>
+  <span class="meta">
+    <span class="text-blue"><i>AAAI 2026</i></span> ·
+    <span class="text-red"><i>CCF A</i></span> ·
+    <a href="https://arxiv.org/pdf/2511.00051" target="_blank" rel="noopener">PDF</a> ·
+    <a href="https://github.com/MaeChd/SORA" target="_blank" rel="noopener">Code</a>
+  </span>
+  <div class="summary">
+    分析DoRA与LoRA的性质，并统一“校准 + 旋转”的权重条件化策略，提升 PEFT 的性能与训练推理效率。
+  </div>
   <div class="chips">
-    <span class="chip">随机优化</span><span class="chip">动量</span><span class="chip">对齐</span>
+    <span class="chip">LLMs PEFT</span>
+    <span class="chip">Weight Conditioning</span>
   </div>
 </div>
 
 <div class="pub-item">
-  <strong>Mixed Text Recognition with Efficient Parameter Fine-Tuning and Transformer</strong><br/>
+  <strong>MGUP: A Momentum-Gradient Alignment Update Policy for Stochastic Optimization</strong>
   <div class="authors">
-    <b>Da Chang*</b>, Yu Li*
+    <span class="author-me">Da Chang</span>, Ganzhao Yuan
   </div>
-  <div>
-  <span class="meta">(*:共同一作)</span>
+  <span class="meta">
+    <span class="text-blue"><i>NeurIPS 2025</i></span> ·
+    <span class="text-red"><i>Spotlight (Top 3%)</i></span> ·
+    <span class="text-red"><i>CCF A</i></span> ·
+    <a href="https://openreview.net/pdf?id=TDFSKAspoQ" target="_blank" rel="noopener">PDF</a> ·
+    <a href="https://github.com/MaeChd/MGUP" target="_blank" rel="noopener">Code</a>
+  </span>
+  <div class="summary">
+    通过动量-梯度的对齐策略提供随机非凸优化遍历收敛性保证并加速训练
   </div>
-  <span class="meta">本科毕业设计 / <span class="text-blue"><i>ICONIP 2024</i></span> · <span class="text-green"><i>CCF C</i></span> · <a href="https://arxiv.org/pdf/2404.12734" target="_blank" rel="noopener">PDF</a> · <a href="https://github.com/MaeChd/DLoRA-TrOCR" target="_blank" rel="noopener">代码</a></span>
-  <div>基于 TrOCR 的 OCR 管线，结合高效 PEFT 以处理混合文本；提供可复现实验与评测。</div>
   <div class="chips">
-    <span class="chip">OCR</span><span class="chip">TrOCR</span><span class="chip">PEFT</span>
+    <span class="chip">Stochastic Optimization</span>
+    <span class="chip">Momentum</span>
+    <span class="chip">Alignment</span>
+  </div>
+</div>
+
+<div class="pub-item">
+  <strong>Mixed Text Recognition with Efficient Parameter Fine-Tuning and Transformer</strong>
+  <div class="authors">
+    <span class="author-me">Da Chang*</span>, Yu Li*
+  </div>
+  <span class="meta">(*: Equal contribution)</span>
+  <span class="meta">
+    <strong>Undergraduate Graduation Project</strong> /
+    <span class="text-blue"><i>ICONIP 2024</i></span> ·
+    <span class="text-green"><i>CCF C</i></span> ·
+    <a href="https://arxiv.org/pdf/2404.12734" target="_blank" rel="noopener">PDF</a> ·
+    <a href="https://github.com/MaeChd/DLoRA-TrOCR" target="_blank" rel="noopener">Code</a>
+  </span>
+  <div class="summary">
+    基于 TrOCR 的 OCR 管线，结合高效 PEFT 以处理混合文本；提供可复现实验与评测。
+  </div>
+  <div class="chips">
+    <span class="chip">OCR</span>
+    <span class="chip">TrOCR</span>
+    <span class="chip">PEFT</span>
   </div>
 </div>
 
@@ -159,8 +199,7 @@
 
 ---
 ## 学术服务
-- 2026 — 审稿人（Reviewer）：International Conference on Machine Learning（ICML）。
-- 2025 — 审稿人（Reviewer）：IEEE Transactions on Pattern Analysis and Machine Intelligence（TPAMI）。
+*TPAMI'25*, *ICML'26*, *NeurIPS'26*审稿人。
 
 ---
 
