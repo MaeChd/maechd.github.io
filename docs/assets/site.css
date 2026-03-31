@@ -120,10 +120,15 @@
 }
 
 .pub-item .authors {
-  font-size: 0.8rem;
-  line-height: 1.55;
-  opacity: .88;
+  font-size: .8rem;
+  line-height: 1.6;
+  color: var(--md-default-fg-color--light, #666);
   font-weight: 400;
+}
+
+.pub-item .authors .author-me {
+  font-weight: 700;
+  color: var(--md-default-fg-color, #111);
 }
 
 .pub-item .meta {
@@ -182,9 +187,6 @@
 .pub-item .authors a:hover,
 .pub-item .meta a:hover {
   border-bottom-style: solid;
-}
-.pub-item .author-me {
-  font-weight: 700;
 }
 .link-disabled {
   opacity: .55;
