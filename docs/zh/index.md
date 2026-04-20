@@ -10,7 +10,7 @@
 
 智能科学与技术 工学学士
 
-**深度学习研究 — 优化 • PEFT • 预训练与后训练**
+**深度学习研究 — 优化 • 预训练基础设施 • 参数高效微调**
 
 ![Da Chang](../img/me_v2.jpg){ .avatar-left }
 
@@ -76,7 +76,7 @@
   <span class="meta">
     Preprint 2026.3 ·
     <a href="https://arxiv.org/pdf/2603.28254" target="_blank" rel="noopener">PDF</a> ·
-    <span class="link-disabled">Code</span>
+    <a href="https://github.com/MaeChd/muon-eq" target="_blank" rel="noopener">Code</a>
   </span>
   <div class="summary">
     MuonEq 在 Muon 的正交化更新之前加入轻量级的行/列平衡改善有限步 Newton–Schulz 的输入矩阵几何。

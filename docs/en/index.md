@@ -10,7 +10,7 @@ Ph.D. in  Pattern Recognition and Intelligent Systems
 
 B.Eng. in Intelligent Science and Technology
 
-**DL Research — Optimization • PEFT • Pre & Post Training**
+**DL Research — Optimization • Pre Training Infra • PEFT**
 
 ![Da Chang](../img/me_v2.jpg){ .avatar-left }
 
@@ -75,7 +75,7 @@ I am very interested in the **theory and application of deep learning**. I would
   <span class="meta">
     Preprint 2026.3 ·
     <a href="https://arxiv.org/pdf/2603.28254" target="_blank" rel="noopener">PDF</a> ·
-    <span class="link-disabled">Code</span>
+    <a href="https://github.com/MaeChd/muon-eq" target="_blank" rel="noopener">Code</a>
   </span>
   <div class="summary">
     MuonEq is a lightweight pre-orthogonalization equilibration method for Muon that rebalances the momentum matrix with row/column norm statistics before Newton–Schulz.
