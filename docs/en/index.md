@@ -90,9 +90,8 @@ I am very interested in the **theory and application of deep learning**. I would
 <div class="pub-item">
   <strong>KG-SAM: Injecting Anatomical Knowledge into Segment Anything Models via Conditional Random Fields</strong>
   <div class="authors">
-    Yu Li*, <span class="author-me">Da Chang*</span>, Xi Xiao
+    Yu Li, <span class="author-me">Da Chang</span>, Xi Xiao
   </div>
-  <span class="meta">(*: Equal contribution)</span>
   <span class="meta">
     <span class="text-blue"><i>ICASSP 2026 Oral</i></span> ·
     <span class="text-yellow"><i>CCF B</i></span> ·
