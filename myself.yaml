@@ -1,0 +1,199 @@
+cv:
+  name: Da Chang
+  location: Shenzhen, China
+  email: changda24@mails.ucas.ac.cn
+  website: https://maechd.github.io/
+  social_networks:
+    - network: LinkedIn
+      username: https://www.linkedin.com/in/da-chang-4a13262b8/
+    - network: GitHub
+      username: https://github.com/MaeChd
+    - network: Google Scholar
+      username: https://scholar.google.com/citations?user=glTBszIAAAAJ&hl=en
+
+  sections:
+    Education:
+      - institution: Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences
+        location: Shenzhen, China
+        area: Pattern Recognition and Intelligent Systems
+        degree: Ph.D.
+        start_date: 2024-09
+        end_date: 2029-06
+        highlights:
+          - "Jointly educated Ph.D. candidate with Pengcheng Laboratory."
+          - "Advisor: Prof. Ganzhao Yuan"
+          - "Advisor: Prof. Huihui Zhou"
+          - "Mentor: AP. Yongxiang Liu"
+        links:
+          - label: Prof. Ganzhao Yuan
+            url: https://scholar.google.com/citations?user=-mDAbWQAAAAJ&hl=en
+          - label: Prof. Huihui Zhou
+            url: https://scholar.google.com/citations?user=c2mrU24AAAAJ&hl=en
+          - label: AP. Yongxiang Liu
+            url: https://scholar.google.com/citations?user=RiDZ5XYAAAAJ&hl=en
+
+      - institution: Central South University, School of Automation
+        location: China
+        area: Intelligent Science and Technology
+        degree: B.Eng.
+        start_date: 2020-09
+        end_date: 2024-06
+        score: 89.1/100
+        highlights:
+          - "Outstanding undergraduate thesis, Central South University."
+
+    Research Interests:
+      - My research focuses on LLM pre-training, agent policy learning, and generative AI. 
+      - Specific topics include: 
+        - "Deep learning optimization and generalization."
+        - "Optimization for large-scale machine learning and LLM training."
+        - "Efficient preconditioning and Muon-type optimizers."
+        - "Parameter-efficient fine-tuning and deep learning applications."
+
+    Experience:
+      - organization: Pengcheng Laboratory
+        location: Shenzhen, China
+        position: Jointly Educated Ph.D. Candidate
+        start_date: 2025-07
+        end_date: present
+        highlights:
+          - "Conduct research on deep learning optimization, LLM training infrastructure, PEFT, and optimization theory."
+          - "Work on large-scale training systems and optimizer design for modern deep learning models."
+
+    Projects:
+      - name: "Distributed Muon-based MoE Training on 64 NPUs"
+        type: "Project - Systems for LLM Training"
+        keywords:
+          - MoE
+          - Muon
+          - ZeRO
+          - Megatron
+          - MindSpeed
+          - 64 NPUs
+        highlights:
+          - "Built Muon and Distributed Muon in a Megatron- and MindSpeed-based 64-NPU MoE training framework."
+          - "Supported TP, CP, EP, and PP parallelism."
+          - "Observed that Muon consistently outperformed AdamW during training."
+          - "Reduced memory usage with Distributed Muon, with additional communication overhead."
+          - "Identified a loss-spike issue caused by the interaction between MoE experts and Muon redundancy."
+
+    Preprints & Under Review:
+      - title: "A Note on Stability for Orthogonalized Matrix Momentum with Client Sampling"
+        label: P.1
+        authors: '\textbf{Da Chang}, Qiankun Shi, Lvgang Zhang, Yu Li, Ruijie Zhang'
+        date: 2026-06
+        venue: arXiv preprint
+        status: Preprint
+        links:
+          - label: arXiv
+            url: https://arxiv.org/abs/2606.01720
+
+      - title: "When Does Value-Aware KV Eviction Help? A Fixed-Contract Diagnostic for Non-Monotone Cache Compression"
+        label: P.2
+        authors: 'Ruijie Zhang, Haozhe Liang, \textbf{Da Chang}, Li Hu, Fanqi Kong, Huaxiao Yin, Yu Li'
+        date: 2026-05
+        venue: arXiv preprint
+        status: Preprint
+        links:
+          - label: arXiv
+            url: https://arxiv.org/abs/2605.08234
+
+      - title: "MuonEq: Balancing Before Orthogonalization with Lightweight Equilibration"
+        label: P.3
+        authors: '\textbf{Da Chang}, Qiankun Shi, Lvgang Zhang, Yu Li, Ruijie Zhang, Yao Lu, Yongxiang Liu, Ganzhao Yuan'
+        date: 2026-03
+        venue: arXiv preprint
+        status: Preprint
+        links:
+          - label: PDF
+            url: https://arxiv.org/pdf/2603.28254
+
+      - title: "On the Convergence of Muon and Beyond"
+        label: P.4
+        authors: '\textbf{Da Chang}, Yongxiang Liu, Ganzhao Yuan'
+        date: 2025-09
+        venue: arXiv preprint
+        status: Preprint
+        links:
+          - label: PDF
+            url: https://arxiv.org/pdf/2509.15816
+
+    Publications:
+      - title: "KG-SAM: Injecting Anatomical Knowledge into Segment Anything Models via Conditional Random Fields"
+        label: C.1
+        authors: 'Yu Li, \textbf{Da Chang}, Xi Xiao'
+        date: 2026
+        venue: "IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2026 Oral)"
+        links:
+          - label: PDF
+            url: https://arxiv.org/abs/2509.21750
+
+      - title: "Calibrating and Rotating: A Unified Framework for Weight Conditioning in PEFT"
+        label: C.2
+        authors: '\textbf{Da Chang}, Peng Xue, Yu Li, Yongxiang Liu, Pengxiang Xu, Shixun Zhang'
+        date: 2026
+        venue: "AAAI Conference on Artificial Intelligence (AAAI 2026)"
+        links:
+          - label: PDF
+            url: https://arxiv.org/pdf/2511.00051
+
+      - title: "MGUP: A Momentum-Gradient Alignment Update Policy for Stochastic Optimization"
+        label: C.3
+        authors: '\textbf{Da Chang}, Ganzhao Yuan'
+        date: 2025
+        venue: "Annual Conference on Neural Information Processing Systems (NeurIPS 2025 Spotlight)"
+        links:
+          - label: PDF
+            url: https://openreview.net/pdf?id=TDFSKAspoQ
+
+      - title: "Mixed Text Recognition with Efficient Parameter Fine-Tuning and Transformer"
+        label: C.4
+        authors: '\textbf{Da Chang}*, Yu Li*'
+        date: 2024
+        venue: "International Conference on Neural Information Processing (ICONIP 2024)"
+        links:
+          - label: PDF
+            url: https://arxiv.org/pdf/2404.12734
+
+    Selected Awards & Honors:
+      - award: "Silver Reviewer Award, International Conference on Machine Learning (ICML)"
+        date: 2026
+      - award: "Second prize, 8th National Biomedical Engineering Innovation Design Competition for College Students, China"
+        date: 2023
+      - award: "Third prize, 9th National Statistical Modeling Competition for College Students, China"
+        date: 2023
+      - award: "Second Class Scholarship, Central South University (Top 15%)"
+        date: 2023
+      - award: "\"ShanHe Excellent Student\" Second Class Scholarship, Central South University (Top 5%)"
+        date: 2022
+      - award: "First-Class Scholarship, Central South University (Top 5%)"
+        date: 2022
+
+    Academic Services:
+      - "Reviewer for TPAMI'25, ICML'26, and NeurIPS'26."
+
+    Skills:
+      - category: Languages
+        items:
+          - Python
+          - C/C++
+          - MATLAB
+          - LaTeX
+      - category: Frameworks
+        items:
+          - PyTorch
+          - scikit-learn
+          - Megatron
+          - MindSpeed
+      - category: Distributed LLM Training
+        items:
+          - TP
+          - PP
+          - EP
+          - CP
+          - MoE training
+          - NPU-based large-scale training
+      - category: AI-assisted Development
+        items:
+          - Claude Code
+          - Codex

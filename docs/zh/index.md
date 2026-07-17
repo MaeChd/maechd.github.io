@@ -16,10 +16,10 @@
 
 我2024年毕业于<a href="https://www.csu.edu.cn/">中南大学</a><a href="https://soa.csu.edu.cn/">自动化学院</a>智能科学与技术专业。  
 目前在中国科学院深圳先进技术研究院（<a href="https://www.siat.ac.cn/">SIAT</a>）与鹏城实验室（<a href="https://www.pcl.ac.cn/">PCL</a>）联合培养攻读博士学位。  
-我的专业方向为模式识别与智能系统，研究兴趣主要聚焦于**深度学习的优化与泛化**，以及深度模型在各类应用场景中的实践。  
-我对**深度学习的理论与应用**都非常感兴趣，欢迎与我交流神经网络训练技巧、应用场景与优化理论。
+我的专业方向为模式识别与智能系统，主要从事大模型训练系统与优化研究，重点关注预训练基础设施、分布式训练以及优化器与系统的协同设计。研究内容涵盖 Muon、AdamW 等优化算法及其机制，以及这些算法在 Megatron、MindSpeed 和 NPU 集群中的高效稳定实现，包括并行策略、MoE 训练、混合精度、显存优化与数值稳定性等问题。近期也关注 mid-training 和 post-training，探索大模型全训练流程中的算法—系统协同。
 
-- 📄 **[简历（PDF）](../pdf/cv_zh.pdf)**
+
+- 📄 **[简历（PDF）](../pdf/da_chang_cv.pdf)**
 - 🧪 **[GitHub](https://github.com/MaeChd)**
 - 🎓 **[学术主页](https://scholar.google.com/citations?user=glTBszIAAAAJ&hl=zh-CN)**
 - ✉️ **changda24@mails.ucas.ac.cn**
@@ -28,7 +28,8 @@
 ---
 
 ## 动态 / News {#news}
-- **2026-03*** — 预印本 *MuonEq: Balancing Before Orthogonalization with Lightweight Equilibration* 发布。
+- **2026-07** — 预印本 *Muse: Representation Geometry of Muon Beyond Normalized Momentum* 发布。
+- **2026-03** — 预印本 *MuonEq: Balancing Before Orthogonalization with Lightweight Equilibration* 发布。
 - **2026-01** — *KG-SAM: Injecting Anatomical Knowledge into Segment Anything Models via Conditional Random Fields* 入选 **ICASSP 2026 Oral**。
 - **2025-11** — *Calibrating and Rotating: A Unified Framework for Weight Conditioning in PEFT* 入选 **AAAI 2026**。 
 - **2025-09** — 预印本 *On the Convergence of Muon and Beyond* 发布。  
@@ -67,6 +68,25 @@
 ## 代表论文
 
 <div class="pub-list">
+
+<div class="pub-item">
+  <strong>Muse: Representation Geometry of Muon Beyond Normalized Momentum</strong>
+  <div class="authors">
+    <span class="author-me">Da Chang*</span>, Qiankun Shi*, Lvgang Zhang*, Di He, Yaoshuai Ma, Ganzhao Yuan, Yongxiang Liu
+  </div>
+  <span class="meta">
+    Preprint 2026.7 ·
+    <a href="https://arxiv.org/pdf/2607.14536" target="_blank" rel="noopener">PDF</a> ·
+  </span>
+  <div class="summary">
+    首次从表示几何（representation geometry）角度系统解释 Muon 超越归一化动量（normalized momentum）的本质机制，提出核支撑（nuclear support）理论，并揭示矩阵表示如何改变优化动力学与学习行为。
+  </div>
+  <div class="chips">
+    <span class="chip">Muon</span>
+    <span class="chip">Representation Geometry</span>
+    <span class="chip">Optimization Theory</span>
+  </div>
+</div>
 
 <div class="pub-item">
   <strong>MuonEq: Balancing Before Orthogonalization with Lightweight Equilibration</strong>

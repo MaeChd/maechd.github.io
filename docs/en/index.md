@@ -16,11 +16,12 @@ B.Eng. in Intelligent Science and Technology
 
 I graduated from the Department of Intelligent Science and Technology in 2024, <a href="https://soa.csu.edu.cn/">School of Automation</a>, <a href="https://www.csu.edu.cn/">Central South University</a>. 
 Currently, I am a jointly educated Ph.D candidate in a collaborative program between the Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences (<a href="https://www.siat.ac.cn/">SIAT</a>) and Pengcheng Laboratory (<a href="https://www.pcl.ac.cn/">PCL</a>).  
-My major is Pattern Recognition and Intelligent Systems and my research interests focus on **deep learning optimization** and **generalization** and the application of deep models to various areas.  
-I am fortunate to be guided by Associate Professor <a href="https://yuangzh.github.io/">Ganzhao Yuan</a> and to maintain close contact with Researcher Yongxiang Liu and Researcher Huihui Zhou at Pengcheng Laboratory.
-I am very interested in the **theory and application of deep learning**. I would like to communicate with you about neural network training techniques, application scenarios and optimization theories of deep learning.
 
-- 📄 **[CV (PDF)](../pdf/cv_en.pdf)**
+I am fortunate to be guided by Associate Professor <a href="https://yuangzh.github.io/">Ganzhao Yuan</a> and to maintain close contact with Researcher <a href="https://scholar.google.com.hk/citations?user=RiDZ5XYAAAAJ&hl=en">Yongxiang Liu</a> and Researcher <a href="https://scholar.google.com.hk/citations?user=c2mrU24AAAAJ&hl=en">Huihui Zhou</a> at Pengcheng Laboratory.
+
+My research area is Pattern Recognition and Intelligent Systems, with a primary focus on optimization and training systems for large language models. My work centers on pretraining infrastructure, distributed training, and optimizer–system co-design. I study the mechanisms of optimizers such as **Muon** and **AdamW**, as well as their efficient and stable implementation on Megatron, MindSpeed, and large-scale *NPU* clusters, covering parallelism strategies, MoE training, mixed precision, memory-efficient optimizer states, training efficiency, and numerical stability. More recently, I have extended my research to *mid-training* and *post-training*, with an emphasis on algorithm–system co-design across the full LLM training pipeline.
+
+- 📄 **[CV (PDF)](../pdf/da_chang_cv.pdf)**
 - 🧪 **[GitHub](https://github.com/MaeChd)**
 - 🎓 **[Google Scholar](https://scholar.google.com/citations?user=glTBszIAAAAJ&hl=en)**
 - ✉️ **changda24@mails.ucas.ac.cn**
@@ -28,6 +29,7 @@ I am very interested in the **theory and application of deep learning**. I would
 ---
 
 ## News {#news}
+- **2026-07** — Preprint *Muse: Representation Geometry of Muon Beyond Normalized Momentu* posted.
 - **2026-03** — Preprint *MuonEq: Balancing Before Orthogonalization with Lightweight Equilibration* posted.  
 - **2026-01** — *KG-SAM: Injecting Anatomical Knowledge into Segment Anything Models via Conditional Random Fields* accepted —— Accepted at **ICASSP 2026 Oral**. 
 - **2025-11** — *Calibrating and Rotating: A Unified Framework for Weight Conditioning in PEFT* accepted —— Accepted at **AAAI 2026**. 
@@ -66,6 +68,26 @@ I am very interested in the **theory and application of deep learning**. I would
 ## Selected Publications
 
 <div class="pub-list">
+
+
+<div class="pub-item">
+  <strong>Muse: Representation Geometry of Muon Beyond Normalized Momentum</strong>
+  <div class="authors">
+    <span class="author-me">Da Chang*</span>, Qiankun Shi*, Lvgang Zhang*, Di He, Yaoshuai Ma, Ganzhao Yuan, Yongxiang Liu
+  </div>
+  <span class="meta">
+    Preprint 2026.7 ·
+    <a href="https://arxiv.org/pdf/2607.14536" target="_blank" rel="noopener">PDF</a> ·
+  </span>
+  <div class="summary">
+    Provides the first representation-geometric understanding of why Muon goes beyond normalized momentum, introducing the nuclear-support principle to explain how matrix representations fundamentally reshape optimization dynamics.
+  </div>
+  <div class="chips">
+    <span class="chip">Muon</span>
+    <span class="chip">Representation Geometry</span>
+    <span class="chip">Optimization Theory</span>
+  </div>
+</div>
 
 <div class="pub-item">
   <strong>MuonEq: Balancing Before Orthogonalization with Lightweight Equilibration</strong>
