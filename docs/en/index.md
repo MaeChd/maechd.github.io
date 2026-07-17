@@ -29,7 +29,7 @@ My research area is Pattern Recognition and Intelligent Systems, with a primary 
 ---
 
 ## News {#news}
-- **2026-07** — Preprint *Muse: Representation Geometry of Muon Beyond Normalized Momentu* posted.
+- **2026-07** — Preprint *Muse: Representation Geometry of Muon Beyond Normalized Momentum* posted.
 - **2026-03** — Preprint *MuonEq: Balancing Before Orthogonalization with Lightweight Equilibration* posted.  
 - **2026-01** — *KG-SAM: Injecting Anatomical Knowledge into Segment Anything Models via Conditional Random Fields* accepted —— Accepted at **ICASSP 2026 Oral**. 
 - **2025-11** — *Calibrating and Rotating: A Unified Framework for Weight Conditioning in PEFT* accepted —— Accepted at **AAAI 2026**. 
